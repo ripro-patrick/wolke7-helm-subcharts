@@ -16,6 +16,6 @@ portainer:
   persistence:
     # existingClaim: pvc-portainer
     accessModes: ReadWriteOnce
-    storageClass: civo-volume
+    storageClass: local-path
     size: "3Gi"
 
