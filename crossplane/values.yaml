@@ -1,0 +1,17 @@
+
+
+crossplane:
+  replicas: 3
+
+  rbacManager:
+    replicas: 3
+
+  metrics:
+    enabled: true
+
+  provider:
+    packages: ["crossplane-provider-civo", "crossplane-provider-aws", "crossplane-provider-gcp", "crossplane-provider-azure", "crossplane-provider-helm", "crossplane-provider-rook"]
+
+  configuration:
+    packages: ["getting-started", "platform-ref-aws", "platform-ref-gcp", "platform-ref-multi-k8s", "platform-ref-cloud-native"]
+
