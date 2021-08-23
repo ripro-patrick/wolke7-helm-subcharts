@@ -24,9 +24,9 @@ version: 2.5.9
 appVersion: "2.5.9"
 
 dependencies:
-- name: cert-manager
-  version: "v1.5.2"
-  repository: "https://charts.jetstack.io"
+# - name: cert-manager
+#   version: "v1.5.2"
+#   repository: "https://charts.jetstack.io"
 - name: rancher
   version: "2.5.9"
   repository: "https://releases.rancher.com/server-charts/stable"
