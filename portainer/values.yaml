@@ -5,8 +5,15 @@ portainer:
   image.tag: "2.1.1"
   resources: 
     requests:
-      cpu: "50m"
+      cpu: "100m"
       memory: "256Mi"
     limits:
-      cpu: "100m"
+      cpu: "200m"
       memory: "512Mi"
+  # service:
+  #   type: LoadBalancer
+  #   httpPort: 80
+  persistence:
+    # existingClaim: pvc-portainer
+    storageClass: civo-volume
+
