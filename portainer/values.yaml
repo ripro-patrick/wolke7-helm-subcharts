@@ -16,4 +16,5 @@ portainer:
   persistence:
     # existingClaim: pvc-portainer
     storageClass: civo-volume
+    size: "3Gi"
 
