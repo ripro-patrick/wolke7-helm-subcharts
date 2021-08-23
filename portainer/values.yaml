@@ -15,6 +15,7 @@ portainer:
   #   httpPort: 80
   persistence:
     # existingClaim: pvc-portainer
+    accessModes: ReadWriteOnce
     storageClass: civo-volume
     size: "3Gi"
 
