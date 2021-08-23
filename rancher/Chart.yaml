@@ -1,5 +1,5 @@
 apiVersion: v2
-name: wolke7-crossplane
+name: wolke7-rancher
 description: Wolke7 Rancher subchart
 
 # A chart can be either an 'application' or a 'library' chart.
