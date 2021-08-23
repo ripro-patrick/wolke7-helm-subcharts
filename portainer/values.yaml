@@ -1,4 +1,4 @@
-
+fullnameOverride: wolke7-infra-portainer
 portainer:
   enabled: true
   replicaCount: 3
