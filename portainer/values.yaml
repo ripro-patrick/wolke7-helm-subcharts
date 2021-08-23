@@ -1,0 +1,12 @@
+
+portainer:
+  enabled: true
+  replicaCount: 3
+  image.tag: "2.1.1"
+  resources: 
+    requests:
+      cpu: "200m"
+      memory: "256Mi"
+    limits:
+      cpu: "400m"
+      memory: "512Mi"
