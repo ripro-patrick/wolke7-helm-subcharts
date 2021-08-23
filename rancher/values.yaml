@@ -1,5 +1,6 @@
 
 cert-manager:
+  enabled: false
   installCRDs: true
   replicaCount: 3
   webhook:
@@ -9,4 +10,5 @@ cert-manager:
 
 
 rancher:
+  enabled: false
   hostname: rancher.8870ebd7-a944-4157-8176-bc9f3bf787f9.k8s.civo.com
