@@ -1,4 +1,7 @@
 
+cert-manager:
+  installCRDs: true
+
 
 rancher:
   hostname: rancher
