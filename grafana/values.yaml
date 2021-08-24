@@ -1,3 +1,6 @@
 
 grafana:
   enabled: true
+  service:
+    type: LoadBalancer
+    port: 3000
