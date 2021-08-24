@@ -16,7 +16,7 @@ portainer:
   #   httpPort: 80
   persistence:
     # existingClaim: pvc-portainer
-    accessModes: ReadWriteOnce
+    # accessModes: ReadWriteOnce
     storageClass: local-path
     size: "3Gi"
 
