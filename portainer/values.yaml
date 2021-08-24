@@ -1,9 +1,5 @@
 fullnameOverride: wolke7-infra-portainer
-DNS: 
-  valueFrom:
-    configMapRef:
-      name: cluster_vars
-      key: DNS
+
 portainer:
   enabled: true
   replicaCount: 3
@@ -24,3 +20,7 @@ portainer:
     storageClass: local-path
     size: "3Gi"
 
+env:
+  envFrom:
+    configMapRef:
+      name: cluster-vars

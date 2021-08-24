@@ -16,4 +16,4 @@ spec:
              name: {{ include "portainer.fullname" . }}
              port:
                number: 9000
-    host: "portainer.{{ .Values.DNS }}"
+    host: "portainer.{{ .Values.env.DNS }}"
