@@ -7,7 +7,7 @@ prometheus:
     service:
       type: LoadBalancer
       port: 9090
-    resource:
+    resources:
       requests:
         cpu: "200m"
         memory: "256Mi"
@@ -15,7 +15,7 @@ prometheus:
         cpu: "400m"
         memory: "512Mi"
   operator:
-    resource:
+    resources:
       requests:
         cpu: "200m"
         memory: "256Mi"
@@ -23,7 +23,7 @@ prometheus:
         cpu: "400m"
         memory: "512Mi"
   alertmanager:
-    resource:
+    resources:
       requests:
         cpu: "100m"
         memory: "128Mi"
