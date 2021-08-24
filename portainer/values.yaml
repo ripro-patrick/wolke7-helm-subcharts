@@ -20,8 +20,8 @@ portainer:
     storageClass: local-path
     size: "3Gi"
 
-env:
- DNS: portainer
+# env:
+#  DNS: portainer
   # valueFrom:
   #   configMapRef:
   #     name: cluster-vars
