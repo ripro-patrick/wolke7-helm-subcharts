@@ -1,19 +1,19 @@
 
 prometheus:
   enabled: true
-  prometheus-operator:
-    thanos:
-      create: true
-    service:
-      type: LoadBalancer
-      port: 9090
-    resources:
-      requests:
-        cpu: "200m"
-        memory: "256Mi"
-      limits:
-        cpu: "400m"
-        memory: "512Mi"
+prometheus-operator:
+  thanos:
+    create: true
+  service:
+    type: LoadBalancer
+    port: 9090
+  resources:
+    requests:
+      cpu: "200m"
+      memory: "256Mi"
+    limits:
+      cpu: "400m"
+      memory: "512Mi"
   operator:
     resources:
       requests:
