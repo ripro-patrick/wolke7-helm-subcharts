@@ -1,5 +1,9 @@
 fullnameOverride: wolke7-infra-portainer
-DNS: ${DNS}
+DNS: 
+  valueFrom:
+    configMapRef:
+      name: cluster_vars
+      key: DNS
 portainer:
   enabled: true
   replicaCount: 3
