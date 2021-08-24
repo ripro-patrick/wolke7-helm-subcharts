@@ -22,7 +22,8 @@ portainer:
 
 env:
 - name: DNS
-  valueFrom:
-    configMapRef:
-      name: cluster-vars
-      key: DNS
+  value: portainer.58bfc6fc-8830-4bbe-b64b-45e77d7fb0ca.k8s.civo.com
+  # valueFrom:
+  #   configMapRef:
+  #     name: cluster-vars
+  #     key: DNS
