@@ -1,7 +1,7 @@
 
 prometheus:
   enabled: true
-  prometheus:
+  prometheus-operator:
     thanos:
       create: true
     service:
