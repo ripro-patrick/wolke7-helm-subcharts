@@ -2,7 +2,7 @@ fullnameOverride: wolke7-infra-portainer
 
 portainer:
   enabled: true
-  replicaCount: 3
+  replicaCount: 1
   image.tag: "2.1.1"
   resources: 
     requests:
@@ -13,7 +13,7 @@ portainer:
       memory: "512Mi"
   service:
     type: LoadBalancer
-    httpPort: 80
+    httpPort: 9000
   persistence:
     # existingClaim: pvc-portainer
     # accessModes: ReadWriteOnce
