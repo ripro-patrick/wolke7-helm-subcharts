@@ -16,4 +16,4 @@ spec:
              name: {{ include "portainer.fullname" . }}
              port:
                number: 9000
-    host: portainer.acf0f57a-13bc-445f-bcc8-938375a6a264.k8s.civo.com
+    host: "portainer.{{ .Values.DNS }}"

@@ -1,4 +1,5 @@
 fullnameOverride: wolke7-infra-portainer
+DNS: 58bfc6fc-8830-4bbe-b64b-45e77d7fb0ca.k8s.civo.com
 portainer:
   enabled: true
   replicaCount: 3
