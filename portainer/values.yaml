@@ -21,6 +21,8 @@ portainer:
     size: "3Gi"
 
 env:
-  envFrom:
+- name: DNS
+  valueFrom:
     configMapRef:
       name: cluster-vars
+      key: DNS
