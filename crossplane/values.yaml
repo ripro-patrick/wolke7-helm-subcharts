@@ -14,5 +14,6 @@ crossplane:
     packages: ["crossplane/provider-civo:main", "crossplane/provider-aws:master", "crossplane-provider-gcp:master", "crossplane-provider-azure:master", "crossplane-provider-helm:master"]
 
   configuration:
-    packages: ["getting-started", "platform-ref-aws", "platform-ref-gcp", "platform-ref-multi-k8s", "platform-ref-cloud-native"]
+    # packages: ["registry.upbound.io/upbound/getting-started:v0.0.2", "registry.upbound.io/upbound/platform-ref-aws:v0.2.0", "registry.upbound.io/upbound/platform-ref-gcp:v0.0.5", "registry.upbound.io/upbound/platform-ref-multi-k8s:v0.0.6", "registry.upbound.io/upbound/platform-ref-cloud-native:v0.0.3"]
+    packages: ["registry.upbound.io/upbound/getting-started:v0.0.2", "registry.upbound.io/upbound/platform-ref-aws:v0.2.0", "registry.upbound.io/upbound/platform-ref-gcp:v0.0.5", "registry.upbound.io/upbound/platform-ref-multi-k8s:v0.0.6", "registry.upbound.io/upbound/platform-ref-cloud-native:v0.0.3"]
 
