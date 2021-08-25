@@ -11,9 +11,9 @@ crossplane:
 
   provider:
     # packages: ["crossplane/provider-civo:main", "crossplane/provider-aws:master", "crossplane-provider-gcp:master", "crossplane-provider-azure:master", "crossplane-provider-helm:master", "crossplane-provider-kubernetes:master", "crossplane-provider-terraform:master", "crossplane-provider-rook:master", "crossplane-provider-sql:master"]
-    packages: ["crossplane/provider-civo:main", "crossplane/provider-aws:master", "crossplane-provider-gcp:master", "crossplane-provider-azure:master", "crossplane-provider-helm:master"]
-
+    # packages: ["crossplane/provider-civo:main", "crossplane/provider-aws:master", "crossplane-provider-gcp:master", "crossplane-provider-azure:master", "crossplane-provider-helm:master"]
+    packages: ["crossplane/provider-civo:main"]
   configuration:
     # packages: ["registry.upbound.io/upbound/getting-started:v0.0.2", "registry.upbound.io/upbound/platform-ref-aws:v0.2.0", "registry.upbound.io/upbound/platform-ref-gcp:v0.0.5", "registry.upbound.io/upbound/platform-ref-multi-k8s:v0.0.6", "registry.upbound.io/upbound/platform-ref-cloud-native:v0.0.3"]
-    packages: ["registry.upbound.io/upbound/getting-started:v0.0.2", "registry.upbound.io/upbound/platform-ref-aws:v0.2.0", "registry.upbound.io/upbound/platform-ref-gcp:v0.0.5", "registry.upbound.io/upbound/platform-ref-multi-k8s:v0.0.6", "registry.upbound.io/upbound/platform-ref-cloud-native:v0.0.3"]
+    packages: ["registry.upbound.io/upbound/getting-started:latest", "registry.upbound.io/upbound/platform-ref-aws:latest", "registry.upbound.io/upbound/platform-ref-gcp:latest", "registry.upbound.io/upbound/platform-ref-multi-k8s:latest", "registry.upbound.io/upbound/platform-ref-cloud-native:latest"]
 
