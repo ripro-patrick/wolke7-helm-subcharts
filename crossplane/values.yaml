@@ -15,5 +15,5 @@ crossplane:
     packages: ["crossplane/provider-civo:main"]
   configuration:
     # packages: ["registry.upbound.io/upbound/getting-started:latest", "registry.upbound.io/upbound/platform-ref-aws:latest", "registry.upbound.io/upbound/platform-ref-gcp:latest", "registry.upbound.io/upbound/platform-ref-multi-k8s:latest", "registry.upbound.io/upbound/platform-ref-cloud-native:latest"]
-    packages: ["registry.upbound.io/upbound/getting-started:latest", "registry.upbound.io/upbound/platform-ref-aws:latest"]
+    # packages: ["registry.upbound.io/upbound/getting-started:latest", "registry.upbound.io/upbound/platform-ref-aws:latest"]
 
