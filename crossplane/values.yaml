@@ -10,7 +10,7 @@ crossplane:
     enabled: true
 
   provider:
-    packages: ["crossplane/provider-civo:main", "crossplane/provider-aws:master", "crossplane-provider-gcp", "crossplane-provider-azure", "crossplane-provider-helm", "crossplane-provider-rook"]
+    packages: ["crossplane/provider-civo:main", "crossplane/provider-aws:master", "crossplane-provider-gcp:master", "crossplane-provider-azure:master", "crossplane-provider-helm:master", "crossplane-provider-kubernetes:master", "crossplane-provider-terraform:master", "crossplane-provider-rook:master", "crossplane-provider-sql:master"]
 
   configuration:
     packages: ["getting-started", "platform-ref-aws", "platform-ref-gcp", "platform-ref-multi-k8s", "platform-ref-cloud-native"]
