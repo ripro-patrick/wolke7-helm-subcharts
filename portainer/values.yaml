@@ -17,8 +17,8 @@ portainer:
   persistence:
     # existingClaim: pvc-portainer
     # accessModes: ReadWriteOnce
-    storageClass: local-path
-    size: "3Gi"
+    storageClass: civo-volume
+    size: "10Gi"
 
 # env:
 #  DNS: portainer
