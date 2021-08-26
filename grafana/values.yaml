@@ -5,7 +5,7 @@ grafana:
     type: LoadBalancer
     port: 3000
   persistence:
-    storageClass: "local-path"
+    storageClass: "civo-volume"
     size: 10Gi
   resources:
     requests:
