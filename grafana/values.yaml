@@ -8,8 +8,8 @@ grafana:
     type: LoadBalancer
     port: 3000
   persistence:
-    # storageClass: "civo-volume"
-    accessMode: "ReadWriteMany"
+    storageClass: "civo-volume"
+    accessMode: ReadWriteMany
     size: 10Gi
   resources:
     requests:

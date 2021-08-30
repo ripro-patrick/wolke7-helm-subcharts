@@ -16,8 +16,8 @@ portainer:
     httpPort: 9000
   persistence:
     # existingClaim: pvc-portainer
-    # accessModes: ReadWriteOnce
-    # storageClass: civo-volume
+    accessModes: ReadWriteMany
+    storageClass: civo-volume
     size: "10Gi"
 
 # env:
