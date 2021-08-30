@@ -4,6 +4,8 @@ grafana:
   admin:
     existingSecret: "grafana-password"
   replicaCount: 1
+  updateStrategy:
+    type: Recreate
   service:
     type: LoadBalancer
     port: 3000
