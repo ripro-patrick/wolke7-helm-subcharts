@@ -3,13 +3,13 @@ grafana:
   enabled: true
   admin:
     existingSecret: "grafana-password"
-  replicaCount: 2
+  replicaCount: 1
   service:
     type: LoadBalancer
     port: 3000
   persistence:
     storageClass: "civo-volume"
-    accessMode: ReadWriteMany
+    accessMode: ReadWriteOnce
     size: 10Gi
   resources:
     requests:
