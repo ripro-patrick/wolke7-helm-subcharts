@@ -1,0 +1,12 @@
+
+argocd:
+  enabled: true
+# argo-cd:
+  # server:
+  #   insecure: true
+    # extraArgs: "[--insecure]"
+    # ingress:
+    #   enabled: true
+  # controller:
+  #   args:
+  #     appResyncPeriod: 30
