@@ -1,6 +1,8 @@
 
 grafana:
   enabled: true
+  admin:
+    existingSecret: "grafana-password"
   service:
     type: LoadBalancer
     port: 3000
