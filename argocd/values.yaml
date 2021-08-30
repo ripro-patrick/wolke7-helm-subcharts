@@ -1,12 +1,25 @@
 
 argocd:
   enabled: true
-# argo-cd:
-  # server:
+argo-cd:
+  server:
+    replicaCount: 3
+    autoscaling:
+      enabled: true
+      minReplicas: 3
+      maxReplicas: 10
+    metrics:
+      enabled: true
+      serviceMonitor:
+        enabled: true
   #   insecure: true
     # extraArgs: "[--insecure]"
     # ingress:
     #   enabled: true
-  # controller:
+  controller:
+    replicaCount: 3
+    metrics:
+      enabled: true
   #   args:
   #     appResyncPeriod: 30
+
